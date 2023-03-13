@@ -1,0 +1,19 @@
+#LinkLOOK {
+    color: rgb(0, 217, 255);
+    font-family: arial;
+    font-size: 15px;
+    text-decoration:none 
+  }
+  #TITLELOOK {
+    color: rgb(255, 136, 0);
+    outline: black;
+    font-family: Helvetica;
+}
+#ARTDISC{
+    font-family: Tahoma;
+    color: #fd0606;
+    font-size: large;
+}
+
+
+

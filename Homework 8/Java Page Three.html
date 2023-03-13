@@ -1,0 +1,93 @@
+<html>
+    <Head>
+        
+        <title>Wow! You did it</title>
+        <link rel="stylesheet" type="text/css" href="C:\Users\monta\OneDrive\Documents\GitHub\MART120\Homework 7\Index.css">
+
+          <script>
+              function checkform()
+    {
+      if (document.getElementById("emailtxt").value == "")
+    {
+        alert('You missed something!');
+        return false;
+    }
+
+    return true;
+    }
+          </script>
+
+          <script>
+            function checkform()
+
+            if (document.getElementById("btnSubmit").value == "") {
+                document.getElementById("btnSubmit").style.color = "red";
+            }
+    
+        return false;
+    
+
+          </script>
+
+          <script>
+  <script>
+              function checkform()
+    {
+      if (document.getElementById("no").value == "")
+    {
+        alert('You said no!');
+        return false;
+    }
+
+    return true;
+    }
+          </script>
+
+
+          </script>
+
+        
+        
+    </Head>
+    <Body>
+        <div id="TITLELOOK"><h1>Congrats! You made it to the end of the page!</h1></div>
+        Please put your Email and name in the text field below so we can we can send you personalized messages!
+        <br>
+        <br>
+
+        Email:
+        <form id="orderForm" onSubmit="return checkform()">
+            <input name="eamil" id="emailtxt" type="text" /><br>
+            <input class="submit" type="submit" value="Submit"/>
+        </form>
+    
+           First Name:<br>
+           <form onsubmit="return checkform(this)"> 
+           <input name="box" id="dolphintxt" type="text" required /><br>
+           <input type="submit" value="Submit"/>
+        </form>
+
+        Do you accept our terms of services?<br>
+
+        <form id="orderForm" onSubmit="return checkform()">
+           Agree <input name="agree" id="yesagree" type="radio" /><br>
+           Don't Agree <input name="dontagree" id="noagree" type="radio" /><br>
+            <input class="submit" type="submit" value="Submit"/>
+        </form>
+        
+    
+
+        
+        When you're ready, click <a href="CSS Page One.html"id="LinkLOOK">This</a> to go back to the start!<br>
+        <img src="https://dolphinworld.org/wp-content/uploads/2019/02/header_dolphin-626x340.png" width="600" height="400"><br>
+        <br>
+        
+
+
+
+    </Body>
+
+
+
+
+</html>
