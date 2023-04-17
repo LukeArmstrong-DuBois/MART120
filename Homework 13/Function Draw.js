@@ -41,7 +41,7 @@ function draw()
     createBorders(10);
 
     //Start message
-    DrawStartTXT()
+    DrawStartTXT();
     
     //Player 
     drawCharacter();
@@ -61,7 +61,7 @@ function draw()
     
 
     // click shape
-    drawClickShape()
+    drawClickShape();
     
 }
 
