@@ -57,7 +57,7 @@ function draw()
     drawHouse();
 
     //player in exit
-    InExit()
+    InExit();
     
 
     // click shape
