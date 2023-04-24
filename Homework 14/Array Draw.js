@@ -47,6 +47,7 @@ function setup() {
         diameters[i] = getRandomNumber(10);
     }
 
+
     
 }
 
@@ -86,6 +87,8 @@ function draw() {
     for (var i = 0; i < shapeXs.length; i++) {
         fill('red')
         square(shapeXs[i], shapeYs[i], diameters[i]);
+        fill('yellow')
+        circle(shapeXs[i], shapeYs[i], diameters[i]);
         shapeXSpeeds[i] = Math.floor(Math.random() * (Math.floor(Math.random() * 2)) + 0.5);
         
 
@@ -105,6 +108,7 @@ function draw() {
         if (shapeYs[i] < 0) {
             shapeYs[i] = height;
         }
+        
     }
    // In EXIT
 function InExit()
